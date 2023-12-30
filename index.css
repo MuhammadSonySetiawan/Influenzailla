@@ -16,7 +16,7 @@ header{
 }
 
 .menuNavbar{
-    background-image: url("./asset/bgHeader.png");
+    background-image: url("./images/bgHeader.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -90,7 +90,7 @@ header{
 
 /* Content 2 */
   .bg1Content2{
-    background-image: url("./asset/bg1Content2.svg");
+    background-image: url("./images/bg1Content2.svg");
     background-size: cover;
     background-repeat: no-repeat;
     width: 30rem;
@@ -98,7 +98,7 @@ header{
   }
 
   .bg2Content2{
-    background-image: url("./asset/bg2Content2.svg");
+    background-image: url("./images/bg2Content2.svg");
     background-size: cover;
     background-repeat: no-repeat;
     width: 30rem;
@@ -106,7 +106,7 @@ header{
   }
   
   .bg3Content2{
-    background-image: url("./asset/bg3Content2.svg");
+    background-image: url("./images/bg3Content2.svg");
     background-size: cover;
     background-repeat: no-repeat;
     width: 30rem;
@@ -114,7 +114,7 @@ header{
   }
 
   .bg4Content2{
-    background-image: url("./asset/bg4Content2.svg");
+    background-image: url("./images/bg4Content2.svg");
     background-size: cover;
     background-repeat: no-repeat;
     width: 30rem;
@@ -164,7 +164,7 @@ header{
   }
 
   .bgContent4{
-    background-image: url("./asset/bgContent4.svg");
+    background-image: url("./images/bgContent4.svg");
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -226,42 +226,42 @@ img {
 
 .imgCarousel1-1{
   height: 20rem;
-  background-image: url("./asset/carousel1-1.svg");
+  background-image: url("./images/carousel1-1.svg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .imgCarousel1-2{
   height: 20rem;
-  background-image: url("./asset/carousel1-2.svg");
+  background-image: url("./images/carousel1-2.svg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .imgCarousel2-1{
   height: 20rem;
-  background-image: url("./asset/carousel2-1.svg");
+  background-image: url("./images/carousel2-1.svg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .imgCarousel2-2{
   height: 20rem;
-  background-image: url("./asset/carousel2-2.svg");
+  background-image: url("./images/carousel2-2.svg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .imgCarousel3-1{
   height: 20rem;
-  background-image: url("./asset/carousel3-1.svg");
+  background-image: url("./images/carousel3-1.svg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .imgCarousel3-2{
   height: 20rem;
-  background-image: url("./asset/carousel3-2.svg");
+  background-image: url("./images/carousel3-2.svg");
   background-size: cover;
   background-repeat: no-repeat;
 }
