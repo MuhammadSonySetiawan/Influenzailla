@@ -1,0 +1,464 @@
+/* $font : font-family: 'Dancing Script', cursive;
+    font-family: 'K2D', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Unbounded', sans-serif; */
+
+body{
+    background-color: black
+}
+
+/* navigation */
+header{
+    height: 912px;
+    weight: 100 vh;
+}
+
+.menuNavbar{
+    background-image: url("./asset/bgHeader.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+  .fontLogo{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'K2D', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Unbounded', sans-serif;
+}
+
+.hide-desktop {
+  display: none;
+  visibility: hidden;
+}
+
+/* nav content */
+.textGradien {
+  background-image: linear-gradient(to right , #c6f1f7,  #F983E9, #B877FF, #F983E9, #c6f1f7);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'K2D', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Unbounded', sans-serif;
+    /* font-weight: 100; */
+}
+
+.posisiRight{
+  display: flex;
+  justify-content:left ;
+  align-items: center;
+  gap: 5rem;
+}
+
+.contentNavbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%
+    margin-top: 4rem
+  }
+  .textWhite{
+    position: absolute
+  }
+
+  .controlFormNavbar{
+    margin-top: 15rem;
+  }
+  
+  /* content 1 */
+  .bgContent1{
+    background-color: rgba(17, 17, 17, 1);
+  }
+
+  .showItem-phone{
+    display: none;
+    visibility: hidden;
+  }
+
+  .paragraf1Content1{
+    padding-top:5rem; 
+    gap: 7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+/* Content 2 */
+  .bg1Content2{
+    background-image: url("./asset/bg1Content2.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30rem;
+    height: 15rem;
+  }
+
+  .bg2Content2{
+    background-image: url("./asset/bg2Content2.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30rem;
+    height: 15rem;
+  }
+  
+  .bg3Content2{
+    background-image: url("./asset/bg3Content2.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30rem;
+    height: 15rem;
+  }
+
+  .bg4Content2{
+    background-image: url("./asset/bg4Content2.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30rem;
+    height: 15rem;
+  }
+
+  .fontInter{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Inter', sans-serif;
+  }
+
+  /* content 3 */
+  .reverseContent3{
+    display: flex;
+    flex-direction: column
+  }
+
+  .paragraf1Content3{
+    gap: 10rem;
+    display: flex;
+    margin-top: 1rem;
+    margin-right: 5rem;
+  }
+
+  .paragraf2Content3{
+    gap: 12.7rem;
+  }
+
+  .titleParagraf2Content3{
+    width: 100%;
+    margin-right: 10rem;
+  }
+
+  .warna {
+    /* background-color: red; */
+    opacity: 0.5;
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+  }
+
+  .warna.active {
+    /* background-color: red; */
+    opacity: 1;
+  }
+
+  .paragraf3Content3{
+    margin-left: 14.5rem;
+  }
+
+  .bgContent4{
+    background-image: url("./asset/bgContent4.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding:;
+  }
+
+  /* content 4 */
+  .paragraf1Content4{
+    width: 50%;
+    font-size: 0.55rem;
+  }
+
+  .paragraf11Content4{
+    margin-left: 25rem; 
+    font-size: 0.55rem;
+    width: 50%;
+    display: flex;
+  }
+  
+  .paragraf2Content4{
+    margin-top: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .paragraf21Content4{
+    font-size: 0.7rem; 
+    margin-left: 13rem;
+  }
+
+  .paragraf32Content4{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 3rem;
+  }
+ 
+  /* Content 5 */
+  /* carousel */
+  * {
+    box-sizing: border-box;
+  }
+body {
+  font-family: Verdana, sans-serif;
+   margin:0;
+}
+.mySlides {
+  display: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.imgCarousel{
+  width: 50%;
+  padding: 2rem
+}
+
+.imgCarousel1-1{
+  height: 20rem;
+  background-image: url("./asset/carousel1-1.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.imgCarousel1-2{
+  height: 20rem;
+  background-image: url("./asset/carousel1-2.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.imgCarousel2-1{
+  height: 20rem;
+  background-image: url("./asset/carousel2-1.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.imgCarousel2-2{
+  height: 20rem;
+  background-image: url("./asset/carousel2-2.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.imgCarousel3-1{
+  height: 20rem;
+  background-image: url("./asset/carousel3-1.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.imgCarousel3-2{
+  height: 20rem;
+  background-image: url("./asset/carousel3-2.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  width: auto;
+  padding: 5px 6px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  user-select: none;
+  text-decoration: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+   border: 3px solid;
+   border-image: linear-gradient(90deg, rgba(17, 17, 17, 1), orange) 1;
+}
+
+.prev {
+  border: 3px solid;
+   border-image: linear-gradient(90deg, orange, rgba(17, 17, 17, 1)) 1;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #D9D9D9;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #E28224;
+}
+
+/* Footer */
+.hide-desktop-Footer {
+  display: none;
+  visibility: hidden;
+}
+
+/* carousel */
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+/* all */
+@media only screen and (max-width: 767px){
+  /* navigation */
+  nav {
+    display: none;
+    visibility: hidden;
+  }
+
+    header .hide-desktop {
+    display: block;
+    visibility: visible;
+    color: white;
+     background: linear-gradient(to top, transparent 0%, black 100%);
+  }
+
+/* nav content */
+  .posisiRight{
+    justify-content: right;
+    gap: 1rem;
+  }
+
+  .contentNavbar{
+    display: block;
+  }
+
+  .textWhite{
+    position: static;
+  }
+
+  .controlFormNavbar{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+
+  /* content 1 */
+  .paragraf1Content1{
+    flex-direction: column-reverse;
+    gap: 2rem;
+    align-items: start;
+  }
+
+  .hideItem{
+    display: none;
+    visibility: hidden;
+  }
+  
+  .showItem-phone{
+    display: block;
+    visibility: visible;
+  }
+
+  .reverseContent3{
+    flex-direction: column-reverse;
+  }
+
+  .paragraf1Content3{
+    gap:0;
+  }
+
+  .paragraf2Content3{
+    gap: 2rem;
+    flex-direction: column-reverse;
+  }
+
+  .paragraf3Content3{
+    margin-left: 0;
+  }
+
+  .fontParagraf2Content3{
+    
+    font-size: 1rem;
+    /* padding: 15%; */
+  }
+
+  /* content 4 */
+  .paragraf1Content4{
+    margin-left: 0;
+  }
+
+  .paragraf11Content4{
+    margin-left:0; 
+  }
+
+  .paragraf2Content4{
+    justify-content: start;
+     margin-top: 3rem;
+     flex-direction: column;
+  }
+
+  .paragraf21Content4{
+    margin-top: 2rem;
+    margin-left:0;
+  }
+
+  .paragraf32Content4{
+    flex-direction: column;
+    padding: 3rem 0 2rem;
+  }
+
+  .imgCarousel{
+  width: 100%;
+}
+
+  /* Footer */
+ .hide-desktop-Footer {
+    display: block;
+    visibility: visible;
+    color: white;
+  }
+}
+
+
