@@ -1,3 +1,56 @@
+// google analytic dan google tag
+// Tombol About-Us
+function handleClickBtnAboutUs() {
+  // Kirim data ke Google Tag Manager
+  window.dataLayer = window.dataLayer || [];
+  window.dataLayer.push({
+    event: "Tombol About Us Diklik",
+    element: "Tombol AboutUs",
+  });
+}
+
+var BtnAboutUs = document.getElementById("BtnAboutUs");
+BtnAboutUs.addEventListener("click", handleClickBtnAboutUs);
+
+// Tombol BtnExpertise
+function handleClickBtnExpertise() {
+  // Kirim data ke Google Tag Manager
+  window.dataLayer = window.dataLayer || [];
+  window.dataLayer.push({
+    event: "Tombol Expertise Diklik",
+    element: "Tombol Expertise",
+  });
+}
+
+var BtnExpertise = document.getElementById("BtnExpertise");
+BtnExpertise.addEventListener("click", handleClickBtnExpertise);
+
+// Tombol BtnGetStarted
+function handleClickBtnGetStarted() {
+  // Kirim data ke Google Tag Manager
+  window.dataLayer = window.dataLayer || [];
+  window.dataLayer.push({
+    event: "Tombol Get Started Diklik",
+    element: "Tombol Get Started",
+  });
+}
+
+var BtnGetStarted = document.getElementById("BtnGetStarted");
+BtnGetStarted.addEventListener("click", handleClickBtnGetStarted);
+
+// Tombol BtnWhatWeDo
+function handleClickBtnWhatWeDo() {
+  // Kirim data ke Google Tag Manager
+  window.dataLayer = window.dataLayer || [];
+  window.dataLayer.push({
+    event: "Tombol What We Do Diklik",
+    element: "Tombol What We Do",
+  });
+}
+
+var BtnWhatWeDo = document.getElementById("BtnWhatWeDo");
+BtnWhatWeDo.addEventListener("click", handleClickBtnWhatWeDo);
+
 // Content 4
 let activeButton = null;
 
@@ -24,7 +77,7 @@ function showResult(count) {
   // Menandai tombol yang sedang aktif
   activeButton = document.getElementById("button" + count);
   activeButton.classList.add("active");
-}   
+}
 
 // Carousel
 let slideIndex = 1;
