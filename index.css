@@ -1,10 +1,3 @@
-/* $font : font-family: 'Dancing Script', cursive;
-    font-family: 'K2D', sans-serif;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Unbounded', sans-serif; */
-
 body{
     background-color: black
 }
@@ -16,17 +9,12 @@ header{
 }
 
 .menuNavbar{
-    background-image: url("./images/bgHeader.png");
+    background-image: url("./images/bg_header.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-  .fontLogo{
-    font-family: 'Dancing Script', cursive;
-    font-family: 'K2D', sans-serif;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Poppins', sans-serif;
+.fontUnbounded{
     font-family: 'Unbounded', sans-serif;
 }
 
@@ -40,13 +28,6 @@ header{
   background-image: linear-gradient(to right , #c6f1f7,  #F983E9, #B877FF, #F983E9, #c6f1f7);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-    font-family: 'Dancing Script', cursive;
-    font-family: 'K2D', sans-serif;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Unbounded', sans-serif;
-    /* font-weight: 100; */
 }
 
 .posisiRight{
@@ -60,10 +41,14 @@ header{
     display: flex;
     justify-content: space-between;
     width: 100%
-    margin-top: 4rem
+    margin-top: 4rem;
   }
   .textWhite{
-    position: absolute
+    position: absolute;
+  }
+
+  .viewTitle1{
+    width: 20.5rem;
   }
 
   .controlFormNavbar{
@@ -73,6 +58,10 @@ header{
   /* content 1 */
   .bgContent1{
     background-color: rgba(17, 17, 17, 1);
+  }
+
+.viewTitle2{
+    display: flex;
   }
 
   .showItem-phone{
@@ -90,7 +79,7 @@ header{
 
 /* Content 2 */
   .bg1Content2{
-    background-image: url("./images/bg1Content2.svg");
+    background-image: url("./images/bg_content2_01.png");
     background-size: cover;
     background-repeat: no-repeat;
     width: 30rem;
@@ -98,7 +87,7 @@ header{
   }
 
   .bg2Content2{
-    background-image: url("./images/bg2Content2.svg");
+    background-image: url("./images/bg_content2_02.png");
     background-size: cover;
     background-repeat: no-repeat;
     width: 30rem;
@@ -106,7 +95,7 @@ header{
   }
   
   .bg3Content2{
-    background-image: url("./images/bg3Content2.svg");
+    background-image: url("./images/bg_content2_03.png");
     background-size: cover;
     background-repeat: no-repeat;
     width: 30rem;
@@ -114,7 +103,7 @@ header{
   }
 
   .bg4Content2{
-    background-image: url("./images/bg4Content2.svg");
+    background-image: url("./images/bg_content2_04.png");
     background-size: cover;
     background-repeat: no-repeat;
     width: 30rem;
@@ -164,7 +153,7 @@ header{
   }
 
   .bgContent4{
-    background-image: url("./images/bgContent4.svg");
+    background-image: url("./images/bg_content4.png");
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -175,6 +164,16 @@ header{
   .paragraf1Content4{
     width: 50%;
     font-size: 0.55rem;
+  }
+
+  .viewTitle4{
+    width: 44%;
+  }
+
+  .viewTitle4-variasi{
+    display: flex;
+    justify-content: right;
+    margin-right: 3rem
   }
 
   .paragraf11Content4{
@@ -201,8 +200,24 @@ header{
     width: 100%;
     padding-top: 3rem;
   }
+  
+  .viewTitle4-2{
+    display:flex;
+    justify-content: center;
+  }
  
   /* Content 5 */
+  .viewTitle5{
+    display: flex;
+    justify-content: right;
+    margin-right: 2rem;
+  }
+
+  .viewTitle5-variasi{
+    width: width: 32.2%;
+    padding: 2rem 0 ;
+  }
+
   /* carousel */
   * {
     box-sizing: border-box;
@@ -226,42 +241,42 @@ img {
 
 .imgCarousel1-1{
   height: 20rem;
-  background-image: url("./images/carousel1-1.svg");
+  background-image: url("./images/bg_carousel_11.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .imgCarousel1-2{
   height: 20rem;
-  background-image: url("./images/carousel1-2.svg");
+  background-image: url("./images/bg_carousel_12.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .imgCarousel2-1{
   height: 20rem;
-  background-image: url("./images/carousel2-1.svg");
+  background-image: url("./images/bg_carousel_21.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .imgCarousel2-2{
   height: 20rem;
-  background-image: url("./images/carousel2-2.svg");
+  background-image: url("./images/bg_carousel_22.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .imgCarousel3-1{
   height: 20rem;
-  background-image: url("./images/carousel3-1.svg");
+  background-image: url("./images/bg_carousel_31.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .imgCarousel3-2{
   height: 20rem;
-  background-image: url("./images/carousel3-2.svg");
+  background-image: url("./images/bg_carousel_32.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -351,7 +366,8 @@ img {
 
 
 /* all */
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 767px)
+{
   /* navigation */
   nav {
     display: none;
@@ -378,6 +394,10 @@ img {
   .textWhite{
     position: static;
   }
+  
+  .viewTitle1{
+    width: 15rem;
+  }
 
   .controlFormNavbar{
     margin-top: 5rem;
@@ -389,6 +409,10 @@ img {
     flex-direction: column-reverse;
     gap: 2rem;
     align-items: start;
+  }
+
+.viewTitle2{
+    justify-content: center;
   }
 
   .hideItem{
@@ -419,14 +443,24 @@ img {
   }
 
   .fontParagraf2Content3{
-    
     font-size: 1rem;
-    /* padding: 15%; */
   }
 
   /* content 4 */
   .paragraf1Content4{
     margin-left: 0;
+  }
+
+  
+  .viewTitle4{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 64%;
+  }
+
+  .viewTitle4-variasi{
+    justify-content: left;
+    margin-left: 1rem;
   }
 
   .paragraf11Content4{
@@ -447,6 +481,16 @@ img {
   .paragraf32Content4{
     flex-direction: column;
     padding: 3rem 0 2rem;
+  }
+
+  .viewTitle5{
+    display: flex;
+    justify-content: left;
+    margin-right: 2rem;
+  }
+
+  .viewTitle5-variasi{
+    width: 49% ;
   }
 
   .imgCarousel{

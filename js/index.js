@@ -15,7 +15,7 @@ function showResult(count) {
   // Menggunakan loop untuk membuat string berulang sebanyak count
   let resultString = "";
   for (let i = 0; i < count; i++) {
-    resultString += '<img src="./asset/iconContent3.svg" alt="">';
+    resultString += '<img src="../images/ico_content3.png" alt="">';
   }
 
   // Mengganti konten dari elemen span dengan id "result"
