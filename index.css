@@ -10,7 +10,7 @@ header{
 
 .menuNavbar{
     background-image: url("./images/bg_header.png");
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 
