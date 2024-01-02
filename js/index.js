@@ -54,7 +54,7 @@ BtnWhatWeDo.addEventListener("click", handleClickBtnWhatWeDo);
 // Content 4
 let activeButton = null;
 
-// Memastikan tombol 1 aktif secara default
+// Memastikan tombol aktif secara default
 document.addEventListener("DOMContentLoaded", function () {
   showResult(1);
 });
@@ -68,7 +68,7 @@ function showResult(count) {
   // Menggunakan loop untuk membuat string berulang sebanyak count
   let resultString = "";
   for (let i = 0; i < count; i++) {
-    resultString += '<img src="../images/ico_content3.png" alt="">';
+    resultString += '<img src="./images/ico_content3.png" alt="ico_content3">';
   }
 
   // Mengganti konten dari elemen span dengan id "result"
