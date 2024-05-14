@@ -4,7 +4,7 @@ This project is a simple web page that utilizes HTML, CSS, JavaScript, and Boots
 
 ## Preview
 
-[Link Demo](https://muhammadsonysetiawan.github.io/muhammad_sony_setiawan/)
+[Link Demo](https://influenzailla-github-io.vercel.app/)
 
 ## Installation
 
